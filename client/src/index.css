@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.page-header{
+  padding: 10px 20px;
+  display: flex;
+  background-color: #91ff7791;
+  
+}
+.header{
+  margin: 0;
+}
+.page-header p img{
+  width: 50px;
+  padding-right: 10px;
+}
+.adds-container{
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+}
+
+.adds-header{
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 10px;
+}
+input:focus{
+  outline: none;
+}
+
+#addAdds table{
+  display: none;
+  margin: 20px 0px 50px;
+}
+
+
+.btn button{
+  font-size: 20px;
+  border: 0;
+  background: #91FF77;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.input-btn{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.search{
+  border-radius: 10px;
+}
+.submit{
+  font-size: 19px;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  background: skyblue;
+  margin-top: 20px;
+  cursor: pointer;
+}
+label{
+  margin-left: 10px;
+  width: 240px;
+  background: #3995d4;
+  padding: 9px;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 3px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.companylogo{
+  border-radius: 50%;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+}
+.companylogo img{
+  width: 40px;
+  padding: 0px 5px;
+  margin: inherit;
+}
+.product-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0px;
+  justify-content: space-evenly;
+}
+.addbox{
+  width: 42%;
+  box-shadow: 0px 0px 4px 4px gainsboro;
+  padding: 10px 20px;
+  margin: 15px;
+}
+.addHeader h3{
+  margin: 0px;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #546FA6;
+}
+.addHeader h4{
+  margin: 0px;
+  margin-left: 10px;
+  color: gray;
+}
+.productName{
+  display: flex;
+}
+.productName h3{
+  width: 90%;
+  margin: 5px 0px;
+}
+
+.productName p{
+  color: gray;
+  font-weight: 600;
+  margin: 5px 0px;
+}
+.buyNow{
+  width: 34%;
+  margin-top: 28px;
+  margin-right: -16px;
+}
+.buyNow button{
+  padding: 5px;
+  border: 1px solid lightgray;
+  color: #646262;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin-right: 14px;
+}
+.searchcontainer{
+  display: flex;
+  box-shadow: 0px 0px 4px 4px lightgray;
+  padding: 5px;
+  border-radius: 22px;
+}
+.searchcontainer input{
+  border: 0;
+  padding: 5px 0px;
+}
+.searchcontainer button{
+  background: #4eec35a3;
+  border: 0;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  margin-top: 2px;
+  border-radius: 20px;
+  margin-right: 8px
+}
